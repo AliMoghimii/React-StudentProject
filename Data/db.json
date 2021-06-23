@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "Name": "Moghimi",
+      "Pass": "123",
+      "id": 1
+    },
+    {
+      "Name": "Rashidi",
+      "Pass": "123",
+      "id": 2
+    },
+    {
+      "Name": "Nasiri",
+      "Pass": "123",
+      "id": 3
+    },
+    {
+      "Name": "test",
+      "Pass": "test",
+      "id": 4
+    }
+  ],
+  "foods": [
+    {
+      "Name": "Koobideh Kebab",
+      "Description": "grilled minced meat with onions, is served along side other vegtables",
+      "Price": "40,000T",
+      "id": 1
+    },
+    {
+      "Name": "Joojeh Kebab",
+      "Description": "grilled chickhen with saffron, is served along side other vegtables",
+      "Price": "30,000T",
+      "id": 2
+    }
+  ]
+}

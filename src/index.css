@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+body {
+  background-color: #5cdb95;
+  color: white;
+}
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #05386b;
+}
+.navbar .logo{
+  font-size: 200%;
+  color: #edf5e1;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #1d5adb;
+}
+.navbar h1 {
+  color: #05386b;;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #05386b;;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.food-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border : 1px solid #05386b;
+  border-radius: 20px;
+}
+.food-preview:hover {
+  box-shadow: 1px 3px 5px rgba(4, 92, 165, 0.349);
+}
+.food-preview h2 {
+  font-size: 20px;
+  color: #05386b;
+  margin-bottom: 8px;
+}
+.food-preview a {
+ text-decoration: none;
+}
+
+.delBtn {
+  font-size: 15px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  background-color: #05386b; /* Green */
+  border: 2px solid #05386b; /* Green */
+  color: #ffff;
+
+  margin-left: 5vw;
+  margin-left: 32vw;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.delBtn:hover {
+  background-color: #edf5e1; /* Green */
+  border: 2px solid #edf5e1; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+.add {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.add label {
+  text-align: left;
+  display: block;
+}
+.add h2 {
+  font-size: 20px;
+  color: #05386b;
+  margin-bottom: 30px;
+}
+.add input, .add textarea {
+  width: 100%;
+  border-radius: 20px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.add button {
+  font-size: 30px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  background-color: #05386b; /* Green */
+  border: 2px solid #05386b; /* Green */
+  color: #ffff;
+
+  margin-top: 50px;
+}
+
+.add button:hover {
+  background-color: #edf5e1; /* Green */
+  border: 2px solid #edf5e1; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login .logo{
+  font-size: 300%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #edf5e1;
+}
+
+.login label {
+  text-align: left;
+  display: block;
+}
+.login h2 {
+  margin-top: 30px;
+  font-size: 40px;
+  color: #05386b;
+  margin-bottom: 30px;
+}
+.login input {
+  border-radius: 20px;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.login button {
+  font-size: 30px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  background-color: #05386b; /* Green */
+  border: 2px solid #05386b; /* Green */
+  color: #ffff;
+
+  margin-top: 50px;
+}
+
+.login button:hover {
+  background-color: #edf5e1; /* Green */
+  border: 2px solid #edf5e1; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+.signup {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.signup .logo{
+  font-size: 300%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #edf5e1;
+}
+
+.signup label {
+  text-align: left;
+  display: block;
+}
+.signup h2 {
+  margin-top: 30px;
+  font-size: 40px;
+  color: #05386b;
+  margin-bottom: 30px;
+}
+.signup input {
+  border-radius: 20px;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.signup button {
+  font-size: 30px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  background-color: #05386b; /* Green */
+  border: 2px solid #05386b; /* Green */
+  color: #ffff;
+
+  margin-top: 50px;
+}
+
+.signup button:hover {
+  background-color: #edf5e1; /* Green */
+  border: 2px solid #edf5e1; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+.FoodInfo button {
+  font-size: 20px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  background-color: #05386b; /* Green */
+  border: 2px solid #05386b; /* Green */
+  color: #ffff;
+
+  margin-top: 50px;
+
+  margin-right: 20px;
+}
+
+.FoodInfo button:hover {
+  background-color: #edf5e1; /* Green */
+  border: 2px solid #edf5e1; /* Green */
+  color: rgb(0, 0, 0);
+}
+
